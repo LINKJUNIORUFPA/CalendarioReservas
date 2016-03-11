@@ -1,0 +1,32 @@
+adicionando o PrimeFaces no NetBeans
+
+Entre na pasta de instalação do NetBeans:
+/netbeans-8.0.1/enterprise/modules/ext/primefaces
+
+Dentro da pasta "primefaces" cole os arquivos:
+primefaces-5.3.jar
+bootstrap-1.0.10.jar
+
+Abra o NetBeans.
+clicar em Ferramentas.
+clicar em Bibliotecas.
+Clique em "Nova Biblioteca...".
+
+Crie duas bibliotecas:
+PrimeFaces 5.3
+Primeface-Tema-bootstrap
+
+Adicionando o Jar:
+
+selecione a biblioteca "PrimeFaces 5.3" e clique em "Adicionar JAR/Pasta..."
+Adicione os JARs que estão na pasta:
+/netbeans-8.0.1/enterprise/modules/ext/primefaces
+
+selecione a biblioteca "Primeface-Tema-bootstrap" e clique em "Adicionar JAR/Pasta..."
+Adicione os JARs que estão na pasta:
+/netbeans-8.0.1/enterprise/modules/ext/primefaces
+
+
+
+
+ 
