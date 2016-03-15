@@ -24,7 +24,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
-        <url-pattern>/faces/*</url-pattern>
+        <url-pattern>/A2@sH7$j/*</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
