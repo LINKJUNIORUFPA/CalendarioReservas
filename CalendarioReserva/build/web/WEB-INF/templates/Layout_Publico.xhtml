@@ -11,7 +11,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1" />
         </f:facet>
 
-        <title>Calendario Reserva</title>
+        <title>Calendário Reserva</title>
 
         <h:outputStylesheet library="arquivos" name="styles/custom.css" />
         <h:outputStylesheet library="arquivos" name="styles/layout.css" />
@@ -34,13 +34,13 @@
             
             <p:dialog maximizable="false" header="Entrar" widgetVar="MenuEntrar"  modal="true" position="center"  height="300">
                 <h:form >
-                    <p:messages  id="messages" showDetail="true" autoUpdate="true" closable="true" />
+                    <p:messages  id="messages" autoUpdate="true" closable="true" />
                     <h:panelGrid columns="1" cellspacing="15">
                         <p:inputText id="EntrarLogin" placeholder="Login"
                                      required="true" requiredMessage="Digite seu login!" />
 
                         <p:password id="EntrarSenha" placeholder="Senha"
-                                    required="true" requiredMessage="Digite sua senha" />
+                                    required="true" requiredMessage="Digite sua senha!" />
 
                         <p:commandButton id="EntrarBotao"  value="Entrar" />
                     </h:panelGrid>
